@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HeaderComp/>
+    <ConferenceComp/>
   </div>
 </template>
 
 <script>
 import HeaderComp from './components/HeaderComp.vue'
+import ConferenceComp from './components/ConferenceComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderComp
+    HeaderComp,
+    ConferenceComp
   }
 }
 </script>
