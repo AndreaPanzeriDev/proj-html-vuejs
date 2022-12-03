@@ -30,7 +30,7 @@ export default {
 *******************/
 #header{
     padding: 25px;
-    width: 60%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -42,6 +42,7 @@ export default {
 
 li{
     list-style: none;
+    margin: 0 10px;
 }
 
 /*******************
@@ -53,7 +54,12 @@ a{
     color: #8e8e8e;
     font-size: 13px;
     font-weight: 900;
-    margin: 0 10px;
+    
+}
+
+a:hover{
+    padding-bottom: 3px;
+    border-bottom: 3px solid salmon;
 }
 
 /*******************
