@@ -1,37 +1,37 @@
 <template>
-  <div id="conference">
-    <div>CONFERENCE ON</div>
-    <div>SOCIAL NETWORKS</div>
-    <div>**************************</div>
-    <div>IEONCIOECN / ORNFOIRN / OENROEINR</div>
-    <div>bottone</div>
-  </div>
+  <div id="conference"></div>
 </template>
 
 <script>
 export default {
-    name: "ConferenceComp",
-    data(){
-        return{
-            slider:[
-                {background: '../assets/img/slider-1-bg.jpg', position:'center'},
-                {background: '../assets/img/2-item-1.jpg', position: 'right'},
-                {},
-            ],
-            position: 0,
-        }  
-    },
-    methods(){
-
+  name: "ConferenceComp",
+  data(){
+    return{
+        slider:[
+            {
+                img: '../assets/img/slider-1-bg.jpg',
+                phrases: {
+                    e: { p: 'CONFERENCE ON', font: 25, color: '#f0776b' },
+                    e: { p: 'SOCIAL NETRWORKS', font: 25, color: '#f0776b' },
+                    e: { p: '-----------------------------------', font: 25, color: '#f0776b' },
+                    e: { p: '23 -26 MAY 2019  /  SAN FRANCISCO /  8 SPEAKERS', font: 25, color: '#f0776b' },
+                },
+                display_location: 'center'
+            },
+            {
+                img: '../assets/img/slider-1-bg.jpg', //da cambiare
+                phrases: {
+                    e: { p: 'MEET', font: 25, color: '#f0776b' },
+                    e: { p: 'SOME EXPERTS', font: 15, color: '#ffffff' },
+                },
+                display_location: 'right'
+            },
+        ],
     }
-}
+  }
+};
 </script>
 
 <style scoped>
-#conference{
-    background-image: url('../assets/img/slider-1-bg.jpg');
-    width: 100%;
-    height: 100%;
-    color: white;
-}
+
 </style>
