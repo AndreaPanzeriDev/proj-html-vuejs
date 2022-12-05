@@ -1,21 +1,28 @@
 <template>
   <div id="subscribe">
-    <div class="d-flex blocks">
-      <div class="block">
-        <h2>326</h2>
-        <h6>giorni</h6>
+    <div class="container m-auto">
+      <div class="d-flex blocks">
+        <div class="block">
+          <h1>326</h1>
+          <h6>giorni</h6>
+        </div>
+        <div class="block">
+          <h1>326</h1>
+          <h6>giorni</h6>
+        </div>
+        <div class="block">
+          <h1>326</h1>
+          <h6>giorni</h6>
+        </div>
+        <div class="block">
+          <h1>326</h1>
+          <h6>giorni</h6>
+        </div>
       </div>
-      <div class="block">
-        <h2>326</h2>
-        <h6>giorni</h6>
-      </div>
-      <div class="block">
-        <h2>326</h2>
-        <h6>giorni</h6>
-      </div>
-      <div class="block">
-        <h2>326</h2>
-        <h6>giorni</h6>
+      <h1>SUBSCRIBE FOR MORE UPDATE</h1>
+      <div class="d-flex space-around">
+        <input type="text" placeholder="Please file your email">
+        <button class="button">SUBSCRIBE</button>
       </div>
     </div>
   </div>
@@ -37,17 +44,24 @@ export default {
   margin-top: 50px;
   height: 500px;
   display: flex;
-  justify-content: center;
+  
 }
 
-
-
+.blocks{
+  justify-content: space-around;
+}
 .block {
   background-color: black;
   opacity: 0.7;
-  padding: 2px 20px;
+  padding: 2px 10px;
   border-radius: 5px;
   margin: auto 5px;
   color: white;
+}
+
+.d-flex > input{
+  width: 300px;
+  border-radius: 10px;
+  border: none;
 }
 </style>
