@@ -2,18 +2,21 @@
   <div id="speakerComp">
     <div class="contaier">
         <span class="fw-bold">SPEAKERS</span>
-        <div class="d-flex container_profession">
-          <i class="fa-solid fa-angles-left"></i>
-            <div v-for="(elem, index) in arraySpeakers" :key="index" :singleItem="elem"></div>
-          <i class="fa-solid fa-angles-right"></i>
-        </div>
+        <speakerCard v-for="(elem, index) in arraySpeakers" :key="index" :singleItem="elem"/>
     </div>
   </div>
 </template>
 
 <script>
+
+import speakerCard from './speakerCard.vue'
+
 export default {
   name: "speakerComp",
+
+  components:{
+    speakerCard
+  },
   props:{
     arraySpeakers: Array
   },
