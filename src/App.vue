@@ -61,6 +61,10 @@ html{
   margin-top: 50px;
 }
 
+.fs-5{
+  font-size: 5rem;
+}
+
 .button{
   padding: 10px 15px;
   border: none;
