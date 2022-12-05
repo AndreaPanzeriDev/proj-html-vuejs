@@ -3,7 +3,7 @@
     <EventComp/>
     <QuestionComp :arrayAboutUs="arrayAboutUs"/>
     <SubscribeComp/>
-    <speakerComp/>
+    <speakerComp :arraySpeakers="arraySpeakers"/>
   </div>
 </template>
 
@@ -21,7 +21,8 @@ export default {
         speakerComp
     },
     props:{
-      arrayAboutUs: Array
+      arrayAboutUs: Array,
+      arraySpeakers: Array
     },
 }
 </script>
