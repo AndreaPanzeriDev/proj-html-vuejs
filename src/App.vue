@@ -35,11 +35,7 @@ export default {
   box-sizing: border-box;
 }
 
-html{
-  padding: 0;
-  margin: 0;
-  box-sizing: 0;
-}
+
 
 .d-flex {
   display: flex;

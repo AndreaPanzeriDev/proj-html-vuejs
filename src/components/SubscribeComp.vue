@@ -44,7 +44,6 @@ export default {
   margin-top: 50px;
   height: 500px;
   display: flex;
-  
 }
 
 .blocks{

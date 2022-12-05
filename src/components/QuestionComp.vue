@@ -25,8 +25,7 @@ export default {
     display: flex;
     margin-top: 25px;
     color: #c6c1bd;
-    height: 200px;
-    
+    height: 200px;   
 }
 .split{
     width: calc(100% / 3);
