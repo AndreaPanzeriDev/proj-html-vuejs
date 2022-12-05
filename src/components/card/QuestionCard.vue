@@ -39,6 +39,8 @@ a{
     text-decoration: none;
     font-style: italic;
     margin-top: 20px;
+    position: absolute;
+    bottom: 0;
 }
 
 .equal{
