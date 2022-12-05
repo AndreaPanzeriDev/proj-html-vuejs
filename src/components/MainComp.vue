@@ -1,7 +1,7 @@
 <template>
   <div>
     <EventComp/>
-    <QuestionComp/>
+    <QuestionComp :arrayAboutUs="arrayAboutUs"/>
   </div>
 </template>
 
@@ -13,7 +13,10 @@ export default {
     components:{
         EventComp,
         QuestionComp
-    }
+    },
+    props:{
+      arrayAboutUs: Array
+    },
 }
 </script>
 
