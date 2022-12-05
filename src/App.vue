@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
-    <MainComp/>
+    <MainComp :arrayAboutUs="aboutUs"/>
   </div>
 </template>
 
@@ -14,7 +14,15 @@ export default {
   components: {
     HeaderComp,
     MainComp,
-
+  },
+  data(){
+    return{
+      aboutUs: [
+        {icon: 'fa-solid fa-trophy', title: 'WHO WE ARE', phrase:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis, dolorum distinctio id facere nam maiores'},
+        {icon: 'fa-solid fa-bolt', title: 'WHAT WE DO', phrase:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis, dolorum distinctio id facere nam maiores'},
+        {icon: 'fa-solid fa-question', title: 'WHY US', phrase:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis, dolorum distinctio id facere nam maiores'},
+      ]
+    }
   }
 }
 </script>
@@ -61,8 +69,16 @@ html{
   margin-top: 50px;
 }
 
-.fs-5{
-  font-size: 5rem;
+.fs-2{
+  font-size: 2rem;
+}
+
+.align-self-center{
+  align-self: center;
+}
+
+.text-black{
+  color: black;
 }
 
 .button{
