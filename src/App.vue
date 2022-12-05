@@ -23,14 +23,14 @@ export default {
         {icon: 'fa-solid fa-question', title: 'WHY US', phrase:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis, dolorum distinctio id facere nam maiores'},
       ],
       speakers: [
-        {person: './assets/img/speaker-1-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
-        {person: './assets/img/speaker-2-150x150.jpg', name: 'JANET JONES', job: "NewYork Post't GM"},
-        {person: './assets/img/speaker-3-150x150.jpg', name: 'MICHEAL DOVER', job: "Starbuck's CEO"},
-        {person: './assets/img/speaker-4-150x150.jpg', name: 'ANGELINA HOLY', job: "Maxii's Manager"},
-        {person: './assets/img/speaker-5-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
-        {person: './assets/img/speaker-6-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
-        {person: './assets/img/speaker-7-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
-        {person: './assets/img/speaker-8-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
+        {person: 'speaker-1-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
+        {person: 'speaker-2-150x150.jpg', name: 'JANET JONES', job: "NewYork Post't GM"},
+        {person: 'speaker-3-150x150.jpg', name: 'MICHEAL DOVER', job: "Starbuck's CEO"},
+        {person: 'speaker-4-150x150.jpg', name: 'ANGELINA HOLY', job: "Maxii's Manager"},
+        {person: 'speaker-5-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
+        {person: 'speaker-6-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
+        {person: 'speaker-7-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
+        {person: 'speaker-8-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
       ],
     }
   }

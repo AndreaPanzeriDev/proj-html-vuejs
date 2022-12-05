@@ -1,28 +1,30 @@
 <template>
   <div id="speakerComp">
     <div class="contaier">
-        <span class="fw-bold">SPEAKERS</span>
-        <speakerCard v-for="(elem, index) in arraySpeakers" :key="index" :singleItem="elem"/>
+      <span>SPEAKERS</span>
+      <div class="d-flex container_profession">
+        <i class="fa-solid fa-angles-left"></i>
+        <div v-for="(el, index) in 4" :key="index">
+          <img :src="require(`../../assets/img/${arraySpeakers[position + index].person}`)" alt="profile picture">
+        </div>
+        <i class="fa-solid fa-angles-right"></i>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 
-import speakerCard from './speakerCard.vue'
 
-export default {
+
+export default {  
   name: "speakerComp",
-
-  components:{
-    speakerCard
-  },
   props:{
     arraySpeakers: Array
   },
   data(){
     return{
-      position : 0
+      position : 3
     }
   }
 };
