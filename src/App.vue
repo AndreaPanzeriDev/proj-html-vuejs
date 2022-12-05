@@ -87,4 +87,12 @@ html{
   border-radius: 5px;
   background-color: #f7260c;
 }
+
+.m-auto{
+  margin: auto;
+}
+
+.space-around{
+  justify-content: space-around;
+}
 </style>
