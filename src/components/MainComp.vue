@@ -8,7 +8,7 @@
     <googleMaps/>
     <LocationComp/>
     <recentNews :arrayRecentNews="arrayRecentNews"/>
-    <ticket/>
+    <ticket :arrayTicket="arrayTicket"/>
 
   </div>
 </template>
@@ -41,7 +41,8 @@ export default {
       arrayAboutUs: Array,
       arraySpeakers: Array,
       arrayPrograms: Array,
-      arrayRecentNews: Array
+      arrayRecentNews: Array,
+      arrayTicket: Array
     },
 }
 </script>

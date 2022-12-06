@@ -12,6 +12,9 @@ export default {
     name: 'ticketComp',
     components:{
         Card
+    },
+    props:{
+      arrayTicket: Array
     }
 }
 </script>

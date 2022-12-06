@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
-    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews"/>
+    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews" :arrayTicket="ticket"/>
   </div>
 </template>
 
@@ -43,6 +43,15 @@ export default {
         {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
         {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
         {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
+      ],
+      ticket: [
+        {name: 'ONE DAY PASS', price: 'FREE', bonus: [
+          'One Day Access',
+          'Coffee Break',
+          'Lunch(International buffet)',
+          'Document Sheets',
+          '50USD Voucher For Next Event'
+        ]}
       ]
       
     }
