@@ -19,7 +19,7 @@
             alt="profile picture"
           />
           <h3 class="text-center">{{arraySpeakers[position + index].name}}</h3>
-          <h5 class="text-center dustyGray">{{arraySpeakers[position + index].job}}</h5>
+          <div class="text-center dustyGray italic">{{arraySpeakers[position + index].job}}</div>
         </div>
       </div>
     </div>
