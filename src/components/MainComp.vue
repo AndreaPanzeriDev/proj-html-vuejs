@@ -11,6 +11,7 @@
     <ticket :arrayTicket="arrayTicket"/>
     <presentation :arrayTwitter="arrayTwitter"/>
     <sponsor :arraySponsor="arraySponsor"/>
+    <footerComp :arrayGallery="arrayGallery"/>
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import recentNews from './recentNews.vue'
 import ticket from './ticketComp.vue'
 import presentation from './presentationComp.vue'
 import sponsor from './sponsorComp.vue'
+import footerComp from './footerComp.vue'
 
 export default {
     components:{
@@ -39,8 +41,8 @@ export default {
         recentNews,
         ticket,
         presentation,
-        sponsor
-
+        sponsor,
+        footerComp
     },
     props:{
       arrayAboutUs: Array,
@@ -49,7 +51,8 @@ export default {
       arrayRecentNews: Array,
       arrayTicket: Array,
       arrayTwitter: Array,
-      arraySponsor: Array
+      arraySponsor: Array,
+      arrayGallery: Array
     },
 }
 </script>

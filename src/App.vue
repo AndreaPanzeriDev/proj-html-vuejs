@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
-    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews" :arrayTicket="ticket" :arrayTwitter="twitter" :arraySponsor="sponsor"/>
+    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews" :arrayTicket="ticket" :arrayTwitter="twitter" :arraySponsor="sponsor" :arrayGallery="gallery"/>
   </div>
 </template>
 
@@ -80,6 +80,21 @@ export default {
         'banner-4.jpg',
         'banner-5.jpg',
         'banner-6.jpg'
+      ],
+
+      gallery:[
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
       ]
       
     }
@@ -168,6 +183,10 @@ export default {
   opacity: 0.7;
 }
 
+.o-9{
+  opacity: 0.9;
+}
+
 .fs-1{
   font-size: 1.5rem;
 }
@@ -221,6 +240,14 @@ a{
   text-decoration: none;
 }
 
+.pt-15{
+  padding-top: 15px;
+}
+
+.w-20{
+  width: 20%;
+}
+
 .w-25{
   width: 25%;
 }
@@ -270,5 +297,9 @@ a{
 
 .lightblue{
   color: rgb(43, 185, 232);
+}
+
+.bblack{
+  background-color: black;
 }
 </style>
