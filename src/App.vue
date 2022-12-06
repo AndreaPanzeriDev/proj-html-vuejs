@@ -83,6 +83,10 @@ export default {
   align-self: center;
 }
 
+.align-items-center{
+  align-items: center;
+}
+
 .text-black{
   color: black;
 }
@@ -100,5 +104,9 @@ export default {
 
 .space-around{
   justify-content: space-around;
+}
+
+.space-between{
+  justify-content: space-between;
 }
 </style>
