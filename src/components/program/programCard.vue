@@ -12,24 +12,24 @@
         <a class="italic scarlet" href="#">View Full Program</a>
       </div>
       <!--redone-->
-      <div class="d-flex mt-20">
-        <div class="w-20">
+      <div class="d-flex mt-20" >
+        <div class="w-20" @click="Page(0)"> 
           <div class="fw-bold text-white">DAY 1</div>
           <div class="text-white">{{ arrayPrograms[0].date }}</div>
         </div>
-        <div class="w-20">
+        <div class="w-20" @click="Page(1)">
           <div class="fw-bold text-white">DAY 2</div>
           <div class="text-white">{{ arrayPrograms[1].date }}</div>
         </div>
-        <div class="w-20">
+        <div class="w-20" @click="Page(2)">
           <div class="fw-bold text-white">DAY 3</div>
           <div class="text-white">{{ arrayPrograms[2].date }}</div>
         </div>
-        <div class="w-20">
+        <div class="w-20" @click="Page(3)">
           <div class="fw-bold text-white">DAY 4</div>
           <div class="text-white">{{ arrayPrograms[3].date }}</div>
         </div>
-        <div class="w-20">
+        <div class="w-20" @click="Page(4)">
           <div class="fw-bold text-white">DAY 5</div>
           <div class="text-white">{{ arrayPrograms[4].date }}</div>
         </div>
@@ -61,6 +61,7 @@
               require(`../../assets/img/${arrayPrograms[position].picture}`)
             "
             alt="picture"
+            class="mt-20"
           />
         </div>
       </div>
@@ -79,6 +80,11 @@ export default {
       position: 0,
     };
   },
+  methods:{
+    Page(pag_n){
+      this.position = pag_n
+    }
+  }
 };
 </script>
 
@@ -97,5 +103,9 @@ export default {
 .c_info {
   width: 100%;
   height: auto;
+}
+
+.w-75 > img {
+  width: 75px;
 }
 </style>

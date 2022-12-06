@@ -33,11 +33,11 @@ export default {
         {person: 'speaker-8.jpg', name: 'MARGARET SMITH', job: 'S&P Analyzer'},
       ],
       programs: [
-        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r eorinoienfoienrfne noerfneornno fen noerfno ien ornfeon onernfo erinfoien noin rfnioenrfonernfoen irn foner in ofenronf oenrfonefoiern eonir oeon oe f voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
-        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
-        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
-        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
-        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'PATRICK SPENCER', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r eorinoienfoienrfne noerfneornno fen noerfno ien ornfeon onernfo erinfoien noin rfnioenrfonernfoen irn foner in ofenronf oenrfonefoiern eonir oeon oe f voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-2-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-3-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-4-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-5-150x150.jpg'},
       ]
       
     }
