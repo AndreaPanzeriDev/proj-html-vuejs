@@ -9,7 +9,7 @@
     <LocationComp/>
     <recentNews :arrayRecentNews="arrayRecentNews"/>
     <ticket :arrayTicket="arrayTicket"/>
-
+    <presentation :arrayTwitter="arrayTwitter"/>
   </div>
 </template>
 
@@ -23,6 +23,7 @@ import googleMaps from './GoogleMapsComp.vue'
 import LocationComp from './LocationComp.vue'
 import recentNews from './recentNews.vue'
 import ticket from './ticketComp.vue'
+import presentation from './presentationComp.vue'
 
 export default {
     components:{
@@ -34,7 +35,8 @@ export default {
         googleMaps,
         LocationComp,
         recentNews,
-        ticket
+        ticket,
+        presentation
 
     },
     props:{
@@ -42,7 +44,8 @@ export default {
       arraySpeakers: Array,
       arrayPrograms: Array,
       arrayRecentNews: Array,
-      arrayTicket: Array
+      arrayTicket: Array,
+      arrayTwitter: Array
     },
 }
 </script>

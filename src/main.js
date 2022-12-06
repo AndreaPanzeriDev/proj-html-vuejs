@@ -3,7 +3,9 @@ import App from './App.vue'
 
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
+import Embed from 'v-video-embed'
 
+Vue.use(Embed);
 
 
 Vue.config.productionTip = false

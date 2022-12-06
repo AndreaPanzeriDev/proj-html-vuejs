@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
-    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews" :arrayTicket="ticket"/>
+    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews" :arrayTicket="ticket" :arrayTwitter="twitter"/>
   </div>
 </template>
 
@@ -66,6 +66,12 @@ export default {
           'Document Sheets',
           '50USD Voucher For Next Event'
         ]}
+      ],
+      twitter: [
+        "Next I'm buying Coca-Cola to put the cocaine back in",
+        "No one is born hating another person because of the color of his skin or his background or his religion...",
+        "Kobe was a legend on the court and just getting started in what would have been just as meaningful a second act. To lose Gianna is even more heartbreaking to us as parents. Michelle and I send love and prayers to Vanessa and the entire Bryant family on an unthinkable day."
+
       ]
       
     }
@@ -248,5 +254,9 @@ a{
 
 .bwhite{
   background-color: white;
+}
+
+.lightblue{
+  color: rgb(43, 185, 232);
 }
 </style>
