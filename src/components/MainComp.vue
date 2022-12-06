@@ -4,6 +4,7 @@
     <QuestionComp :arrayAboutUs="arrayAboutUs"/>
     <SubscribeComp/>
     <speakerComp :arraySpeakers="arraySpeakers"/>
+    <programCard/>
   </div>
 </template>
 
@@ -12,13 +13,15 @@ import EventComp from './EventComp.vue'
 import QuestionComp from './QuestionComp.vue'
 import SubscribeComp from './SubscribeComp.vue'
 import speakerComp from './speaker/speakerComp.vue'
+import programCard from './program/programCard.vue'
 
 export default {
     components:{
         EventComp,
         QuestionComp,
         SubscribeComp,
-        speakerComp
+        speakerComp,
+        programCard
     },
     props:{
       arrayAboutUs: Array,
