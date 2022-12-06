@@ -6,7 +6,7 @@
       <p class="phrase">
         {{ singleItem.phrase }}
       </p>
-      <a href="#">Learn More</a>
+      <a class="italic" href="#">Learn More</a>
     </div>
   </div>
 </template>
@@ -37,7 +37,6 @@ export default {
 a{
     color: #f7260c;
     text-decoration: none;
-    font-style: italic;
     margin-top: 20px;
     position: absolute;
     bottom: 0;
