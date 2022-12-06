@@ -6,6 +6,7 @@
     <speakerComp :arraySpeakers="arraySpeakers"/>
     <programCard :arrayPrograms="arrayPrograms"/>
     <googleMaps/>
+    <LocationComp/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import SubscribeComp from './SubscribeComp.vue'
 import speakerComp from './speaker/speakerComp.vue'
 import programCard from './program/programCard.vue'
 import googleMaps from './GoogleMapsComp.vue'
+import LocationComp from './LocationComp.vue'
 
 export default {
     components:{
@@ -24,7 +26,8 @@ export default {
         SubscribeComp,
         speakerComp,
         programCard,
-        googleMaps
+        googleMaps,
+        LocationComp
 
     },
     props:{
