@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
-    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews" :arrayTicket="ticket" :arrayTwitter="twitter"/>
+    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews" :arrayTicket="ticket" :arrayTwitter="twitter" :arraySponsor="sponsor"/>
   </div>
 </template>
 
@@ -72,6 +72,14 @@ export default {
         "No one is born hating another person because of the color of his skin or his background or his religion...",
         "Kobe was a legend on the court and just getting started in what would have been just as meaningful a second act. To lose Gianna is even more heartbreaking to us as parents. Michelle and I send love and prayers to Vanessa and the entire Bryant family on an unthinkable day."
 
+      ],
+      sponsor:[
+        'banner-1',
+        'banner-2',
+        'banner-3',
+        'banner-4',
+        'banner-5',
+        'banner-6'
       ]
       
     }
@@ -142,6 +150,10 @@ export default {
 
 .py-15{
   padding: 15px 0;
+}
+
+.py-25{
+  padding: 25px 0;
 }
 
 .pt-25{

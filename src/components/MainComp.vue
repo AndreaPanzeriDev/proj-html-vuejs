@@ -10,6 +10,7 @@
     <recentNews :arrayRecentNews="arrayRecentNews"/>
     <ticket :arrayTicket="arrayTicket"/>
     <presentation :arrayTwitter="arrayTwitter"/>
+    <sponsor :arraySponsor="arraySponsor"/>
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import LocationComp from './LocationComp.vue'
 import recentNews from './recentNews.vue'
 import ticket from './ticketComp.vue'
 import presentation from './presentationComp.vue'
+import sponsor from './sponsorComp.vue'
 
 export default {
     components:{
@@ -36,7 +38,8 @@ export default {
         LocationComp,
         recentNews,
         ticket,
-        presentation
+        presentation,
+        sponsor
 
     },
     props:{
@@ -45,7 +48,8 @@ export default {
       arrayPrograms: Array,
       arrayRecentNews: Array,
       arrayTicket: Array,
-      arrayTwitter: Array
+      arrayTwitter: Array,
+      arraySponsor: Array
     },
 }
 </script>
