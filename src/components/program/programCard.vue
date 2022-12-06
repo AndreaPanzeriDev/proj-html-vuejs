@@ -100,6 +100,8 @@ export default {
   background-color: #f7260c;
 }
 
+
+
 .c_info {
   width: 100%;
   height: auto;
