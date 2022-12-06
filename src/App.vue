@@ -51,6 +51,20 @@ export default {
           'Lunch(International buffet)',
           'Document Sheets',
           '50USD Voucher For Next Event'
+        ]},
+        {name: 'ONE DAY PASS', price: 'FREE', bonus: [
+          'One Day Access',
+          'Coffee Break',
+          'Lunch(International buffet)',
+          'Document Sheets',
+          '50USD Voucher For Next Event'
+        ]},
+        {name: 'ONE DAY PASS', price: 'FREE', bonus: [
+          'One Day Access',
+          'Coffee Break',
+          'Lunch(International buffet)',
+          'Document Sheets',
+          '50USD Voucher For Next Event'
         ]}
       ]
       
@@ -112,8 +126,16 @@ export default {
   margin-right: 30px;
 }
 
+.my-15{
+  margin: 15px 0;
+}
+
 .my-30{
   margin: 30px 0;
+}
+
+.py-15{
+  padding: 15px 0;
 }
 
 .pt-25{
@@ -128,7 +150,9 @@ export default {
   opacity: 0.7;
 }
 
-
+.fs-1{
+  font-size: 1.5rem;
+}
 
 .fs-2{
   font-size: 2rem;
@@ -161,6 +185,7 @@ export default {
   margin: auto;
 }
 
+
 .space-around{
   justify-content: space-around;
 }
@@ -189,6 +214,10 @@ a{
 .w-75{
   width: 75%;
 }
+
+.w-100{
+  width: 100%;
+}
 /***********************
         COLORS
 ************************/
@@ -205,7 +234,19 @@ a{
   color: #f7260c;
 }
 
+.bscarlet{
+  background-color: #f7260c;
+}
+
 .bsand{
-  color: #f3f3f3;
+  background-color: #f3f3f3;
+}
+
+.sand{
+  color: #f3f3f3
+}
+
+.bwhite{
+  background-color: white;
 }
 </style>
