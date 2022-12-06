@@ -6,9 +6,9 @@
         Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies
         vehicula ut id elit.
       </div>
-      <div>
-        <div v-for="(ele, index) in arraySponsor" :key="index">
-            <img :src="require(`../assets/img/${arraySponsor}`)" alt="banner sponsor">
+      <div class="d-flex space-between mt-50">
+        <div v-for="(ele, index) in arraySponsor.length" :key="index">
+            <img :src="require(`../assets/img/${arraySponsor[index]}`)" alt="banner sponsor">
         </div>
       </div>
     </div>

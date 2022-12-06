@@ -74,12 +74,12 @@ export default {
 
       ],
       sponsor:[
-        'banner-1',
-        'banner-2',
-        'banner-3',
-        'banner-4',
-        'banner-5',
-        'banner-6'
+        'banner-1.jpg',
+        'banner-2.jpg',
+        'banner-3.jpg',
+        'banner-4.jpg',
+        'banner-5.jpg',
+        'banner-6.jpg'
       ]
       
     }
