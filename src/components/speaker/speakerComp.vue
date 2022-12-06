@@ -4,7 +4,7 @@
       <div class="space-between d-flex align-items-center">
         <span class="fs-2">SPEAKERS</span>
         <div>
-          <button class="button ms-5" @click="goBack"></button>
+          <button class="button ms-5" @click="goBack">&lt;</button>
           <button class="button ms-5" @click="goOn">></button>
         </div>
       </div>

@@ -32,6 +32,7 @@ export default {
         {person: 'speaker-7-150x150.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
         {person: 'speaker-8-150x150.jpg', name: 'MARGARET SMITH', job: 'S&P Analyzer'},
       ],
+      
     }
   }
 }
@@ -115,6 +116,13 @@ export default {
   font-style: italic;
 }
 
+a{
+  text-decoration: none;
+}
+
+.w-50{
+  width: 50%;
+}
 /***********************
         COLORS
 ************************/
@@ -125,5 +133,9 @@ export default {
 
 .dustyGray{
   color: #9c9c9c;
+}
+
+.scarlet{
+  color: #f7260c;
 }
 </style>
