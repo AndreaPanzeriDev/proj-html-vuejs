@@ -109,4 +109,19 @@ export default {
 .space-between{
   justify-content: space-between;
 }
+
+
+
+
+/***********************
+        COLORS
+************************/
+
+.cloud{
+  color: #c6c1bd;
+}
+
+.dustyGray{
+  color: #9c9c9c;
+}
 </style>

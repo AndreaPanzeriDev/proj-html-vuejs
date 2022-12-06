@@ -4,8 +4,8 @@
       <div class="space-between d-flex align-items-center">
         <span class="fs-2">SPEAKERS</span>
         <div>
-          <button class="button ms-5">x</button>
-          <button class="button ms-5">></button>
+          <button class="button ms-5" @click="goBack">x</button>
+          <button class="button ms-5" @click="goOn">></button>
         </div>
       </div>
       <div class="d-flex space-around mt-50">
@@ -18,6 +18,8 @@
             "
             alt="profile picture"
           />
+          <h3 class="text-center">{{arraySpeakers[position + index].name}}</h3>
+          <h5 class="text-center dustyGray">{{arraySpeakers[position + index].job}}</h5>
         </div>
       </div>
     </div>
@@ -32,9 +34,28 @@ export default {
   },
   data() {
     return {
-      position: 3,
+      position: 0,
     };
   },
+  methods:{
+    goOn(){
+      console.log(this.position)
+      if(this.position == 4){
+        this.position = 0;
+      }else{
+        this.position++;
+      }
+    },
+
+    goBack(){
+      console.log(this.position)
+      if(this.position == 0){
+        this.position = 4;
+      }else{
+        this.position--;
+      }
+    }
+  }
 };
 </script>
 
@@ -52,5 +73,6 @@ export default {
 .contaier > span {
   font-size: 30px;
 }
+
 
 </style>
