@@ -7,6 +7,7 @@
     <programCard :arrayPrograms="arrayPrograms"/>
     <googleMaps/>
     <LocationComp/>
+    <recentNews :arrayRecentNews="arrayRecentNews"/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import speakerComp from './speaker/speakerComp.vue'
 import programCard from './program/programCard.vue'
 import googleMaps from './GoogleMapsComp.vue'
 import LocationComp from './LocationComp.vue'
+import recentNews from './recentNews.vue'
 
 export default {
     components:{
@@ -27,13 +29,15 @@ export default {
         speakerComp,
         programCard,
         googleMaps,
-        LocationComp
+        LocationComp,
+        recentNews
 
     },
     props:{
       arrayAboutUs: Array,
       arraySpeakers: Array,
-      arrayPrograms: Array
+      arrayPrograms: Array,
+      arrayRecentNews: Array
     },
 }
 </script>

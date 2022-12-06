@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
-    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs"/>
+    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs" :arrayRecentNews="recentNews"/>
   </div>
 </template>
 
@@ -38,6 +38,11 @@ export default {
         {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-3-150x150.jpg'},
         {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-4-150x150.jpg'},
         {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-5-150x150.jpg'},
+      ],
+      recentNews:[
+        {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
+        {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
+        {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
       ]
       
     }
@@ -104,6 +109,10 @@ export default {
 
 .pt-25{
   padding-top: 25px;
+}
+
+.o-5{
+  opacity: 0.5;
 }
 
 .o-7{

@@ -6,7 +6,7 @@
       <p class="phrase">
         {{ singleItem.phrase }}
       </p>
-      <a class="italic" href="#">Learn More</a>
+      
     </div>
   </div>
 </template>
