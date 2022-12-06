@@ -111,7 +111,9 @@ export default {
 }
 
 
-
+.italic{
+  font-style: italic;
+}
 
 /***********************
         COLORS
