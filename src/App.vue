@@ -94,6 +94,14 @@ export default {
   margin-right: 10px;
 }
 
+.mr-30{
+  margin-right: 30px;
+}
+
+.my-30{
+  margin: 30px 0;
+}
+
 .pt-25{
   padding-top: 25px;
 }
@@ -102,8 +110,14 @@ export default {
   opacity: 0.7;
 }
 
+
+
 .fs-2{
   font-size: 2rem;
+}
+
+.fs-3{
+  font-size: 3rem;
 }
 
 .align-self-center{
