@@ -8,6 +8,8 @@
     <googleMaps/>
     <LocationComp/>
     <recentNews :arrayRecentNews="arrayRecentNews"/>
+    <ticket/>
+
   </div>
 </template>
 
@@ -20,6 +22,7 @@ import programCard from './program/programCard.vue'
 import googleMaps from './GoogleMapsComp.vue'
 import LocationComp from './LocationComp.vue'
 import recentNews from './recentNews.vue'
+import ticket from './ticketComp.vue'
 
 export default {
     components:{
@@ -30,7 +33,8 @@ export default {
         programCard,
         googleMaps,
         LocationComp,
-        recentNews
+        recentNews,
+        ticket
 
     },
     props:{
