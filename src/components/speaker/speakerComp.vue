@@ -74,5 +74,13 @@ export default {
   font-size: 30px;
 }
 
+img{
+  width: 222px;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+
 
 </style>
