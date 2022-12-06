@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
-    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers"/>
+    <MainComp :arrayAboutUs="aboutUs" :arraySpeakers="speakers" :arrayPrograms="programs"/>
   </div>
 </template>
 
@@ -32,6 +32,13 @@ export default {
         {person: 'speaker-7.jpg', name: 'PATRICK SPENCER', job: 'S&P Analyzer'},
         {person: 'speaker-8.jpg', name: 'MARGARET SMITH', job: 'S&P Analyzer'},
       ],
+      programs: [
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r eorinoienfoienrfne noerfneornno fen noerfno ien ornfeon onernfo erinfoien noin rfnioenrfonernfoen irn foner in ofenronf oenrfonefoiern eonir oeon oe f voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
+        {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-1-150x150.jpg'},
+      ]
       
     }
   }
@@ -71,9 +78,28 @@ export default {
 .ms-5{
   margin: 0 5px;
 }
+.mt-20{
+  margin-top: 20px;
+}
 
 .mt-50{
   margin-top: 50px;
+}
+
+.my-20{
+  margin: 20px 0;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+
+.pt-25{
+  padding-top: 25px;
+}
+
+.o-7{
+  opacity: 0.7;
 }
 
 .fs-2{
@@ -120,8 +146,16 @@ a{
   text-decoration: none;
 }
 
+.w-25{
+  width: 25%;
+}
+
 .w-50{
   width: 50%;
+}
+
+.w-75{
+  width: 75%;
 }
 /***********************
         COLORS
@@ -137,5 +171,9 @@ a{
 
 .scarlet{
   color: #f7260c;
+}
+
+.bsand{
+  color: #f3f3f3;
 }
 </style>
