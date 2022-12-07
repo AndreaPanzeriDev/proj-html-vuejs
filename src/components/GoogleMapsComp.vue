@@ -1,15 +1,44 @@
 <template>
-  <div>
-    
+  <div id="maps">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe
+          width="1000"
+          height="500"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=trafalgar%20square&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe
+        ><a href="https://123movies-to.org"></a><br /><a
+          href="https://www.embedgooglemap.net"
+          >how to embed google map in wordpress</a
+        >
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
+<style scoped>
 
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 1080px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 1080px;
+}
 </style>
