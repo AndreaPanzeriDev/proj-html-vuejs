@@ -26,7 +26,9 @@ export default {};
 </script>
 
 <style scoped>
-
+#maps{
+  margin-top: 50px;
+}
 
 .mapouter {
   position: relative;

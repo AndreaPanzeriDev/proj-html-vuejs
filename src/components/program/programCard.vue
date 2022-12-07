@@ -9,7 +9,7 @@
             also provide free lunch and coffee break in each day
           </span>
         </div>
-        <a class="italic scarlet" href="#">View Full Program</a>
+        <a class="italic scarlet" @click="fullprogramm()">View Full Program</a>
       </div>
       <!--redone-->
       <div class="d-flex mt-20" >
@@ -34,7 +34,7 @@
           <div class="text-white">{{ arrayPrograms[4].date }}</div>
         </div>
       </div>
-      <div class="bsand c_info d-flex pt-25">
+      <div class="bsand c_info d-flex pt-25 pb-50">
         <div class="w-25">
           <div class="d-flex my-20 align-items-center text-center">
             <i class="fa-regular fa-clock dustyGray mr-10"></i>
@@ -83,7 +83,8 @@ export default {
   methods:{
     Page(pag_n){
       this.position = pag_n
-    }
+    },
+   
   }
 };
 </script>
@@ -98,6 +99,10 @@ export default {
   width: 20%;
   padding: 20px 10px;
   background-color: #f7260c;
+}
+
+.w-20:hover{
+  background-color: #af3e2f;
 }
 
 

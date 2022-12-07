@@ -171,6 +171,10 @@ export default {
   padding: 25px 0;
 }
 
+.pb-50{
+  padding-bottom: 50px;
+}
+
 .pt-25{
   padding-top: 25px;
 }
