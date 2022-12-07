@@ -19,7 +19,7 @@
           <h6>SECONDS</h6>
         </div>
       </div>
-      <h1>SUBSCRIBE FOR MORE UPDATE</h1>
+      <h1 class="py-25">SUBSCRIBE FOR MORE UPDATE</h1>
       <div class="d-flex space-around">
         <input type="email" v-model="mail" placeholder="Please file your email">
         <button v-on:click="checkemail()" class="button text-white">SUBSCRIBE</button>
