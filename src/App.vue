@@ -40,9 +40,9 @@ export default {
         {date: '23 May 2016', time: '09:00 - 10:30', name:'MARGARET SMITH', title: 'WELCOMING AND INTRODUCTION', description: 'orein voinvre veonvoernvovnoe vn r vernvoienve voenrvnreonveonv nibr vrei veirbviubibs cewiiubbf', picture: 'speaker-5-150x150.jpg'},
       ],
       recentNews:[
-        {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
-        {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
-        {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'loreeoimfoern rionenfier reinfeirunfe fe irbfnienfienrf efiuenrfiuenfrunef eiunfeiunrfienr feiunrfienfie'},
+        {img: 'photodune-7770665-two-white-coffee-mug-with-diy-decoration-o (2).jpg', date: '03 Dec 2013', comments: '0', title: 'SEDIAL EIUSMOD TEMPOR', phrase: 'Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere.... '},
+        {img: 'photodune-8797753-multiethnic-people-with-startup-business-t (2).jpg', date: '03 Dec 2013', comments: '2', title: 'DONEC LUCTUS IMPERDIET', phrase: 'Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere.... '},
+        {img: 'photodune-8522811-speaker-at-business-conference-and-present (2).jpg', date: '03 Dec 2013', comments: '5', title: 'MAGNA PARS STUDIORUM', phrase: 'Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere.... '},
       ],
       ticket: [
         {name: 'ONE DAY PASS', price: 'FREE', bonus: [
