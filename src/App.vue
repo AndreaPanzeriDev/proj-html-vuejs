@@ -52,19 +52,19 @@ export default {
           'Document Sheets',
           '50USD Voucher For Next Event'
         ]},
-        {name: 'ONE DAY PASS', price: 'FREE', bonus: [
-          'One Day Access',
+        {name: 'FOUR DAYS PASS', price: 'FREE', bonus: [
+          'Four Days Access',
           'Coffee Break',
           'Lunch(International buffet)',
           'Document Sheets',
-          '50USD Voucher For Next Event'
+          '100USD Voucher For Next Event'
         ]},
-        {name: 'ONE DAY PASS', price: 'FREE', bonus: [
-          'One Day Access',
+        {name: 'TWO DAYS PASS', price: 'FREE', bonus: [
+          'Two Days Access',
           'Coffee Break',
           'Lunch(International buffet)',
           'Document Sheets',
-          '50USD Voucher For Next Event'
+          '70USD Voucher For Next Event'
         ]}
       ],
       twitter: [
