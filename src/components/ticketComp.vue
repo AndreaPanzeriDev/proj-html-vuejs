@@ -30,6 +30,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 50px 0;
 }
 
 .container{
