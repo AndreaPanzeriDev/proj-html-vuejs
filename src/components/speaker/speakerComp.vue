@@ -19,7 +19,7 @@
               "
               alt="profile picture"
             />
-            <div class="img_overlay">
+            <div class="img_overlay d-flex">
               <i class="fa-brands fa-twitter fs-1 ms-5"></i>
               <i class="fa-brands fa-square-facebook fs-1 ms-5"></i>
               <i class="fa-brands fa-linkedin-in fs-1 ms-5"></i>
@@ -90,26 +90,31 @@ img {
   width: 222px;
   border-radius: 20px;
 }
-.container2:hover{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
 
 .img_overlay{
+  display: none;
+}
+.container2{
+  position: relative;
+}
+
+.container2:hover .img_overlay{
+  display: flex;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 97%;
+  border-radius: 20px;
   top: 0;
   left: 0;
-  margin-right: -50%;
   color: white;
-  display: flex;
+  background-color: #f7260c;
+  opacity: 0.7;
   justify-content: center;
   align-items: center;
-  background-color: #f7260c;
-  opacity: 0.6;
-  border-radius: 20px;
+
 }
+
+
+
+
 </style>
