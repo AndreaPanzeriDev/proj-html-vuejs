@@ -84,17 +84,17 @@ export default {
 
       gallery:[
         'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'card01-150x150.jpg',
+        '13349065283_64d09b067c_o-150x150.jpg',
+        'card04-150x150.jpg',
+        'photodune-6745606-man-wristwatch-calendar-key-and-glasses-on.jpg',
+        'photodune-8522811-speaker-at-business-conference-and-present (1).jpg',
+        'photodune-8523683-speaker-at-business-convention-and-present.jpg',
+        'photodune-8795110-overhead-of-essentials-denim-clothes-m-150.jpg',
+        'photodune-8797753-multiethnic-people-with-startup-business-t (1).jpg',
+        'speaker-1-150x150.jpg',
         'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
-        'photodune-6745585-modern-creative-workspace-m-150x150.jpg',
+        'speaker-3-150x150.jpg',
       ]
       
     }
