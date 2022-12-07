@@ -52,14 +52,14 @@ export default {
           'Document Sheets',
           '50USD Voucher For Next Event'
         ]},
-        {name: 'FOUR DAYS PASS', price: 'FREE', bonus: [
+        {name: 'FOUR DAYS PASS', price: '750.00 USD', bonus: [
           'Four Days Access',
           'Coffee Break',
           'Lunch(International buffet)',
           'Document Sheets',
           '100USD Voucher For Next Event'
         ]},
-        {name: 'TWO DAYS PASS', price: 'FREE', bonus: [
+        {name: 'TWO DAYS PASS', price: '550.00 USD', bonus: [
           'Two Days Access',
           'Coffee Break',
           'Lunch(International buffet)',

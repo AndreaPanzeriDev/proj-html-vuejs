@@ -21,8 +21,8 @@
       </div>
       <h1>SUBSCRIBE FOR MORE UPDATE</h1>
       <div class="d-flex space-around">
-        <input type="text" placeholder="Please file your email">
-        <button class="button">SUBSCRIBE</button>
+        <input type="email" v-model="mail" placeholder="Please file your email">
+        <button v-on:click="checkemail()" class="button text-white">SUBSCRIBE</button>
       </div>
     </div>
   </div>
@@ -31,6 +31,22 @@
 <script>
 export default {
   name: "SubscribeComp",
+  data(){
+    return{
+      mail: ''
+    }
+  },
+  methods:{
+    checkemail(){
+      if(this.mail == ''){
+        alert("the label is empty")
+      }if(!this.mail.includes("@")){
+        alert('you forgot the @')
+      }else{
+        alert('check your mailbox')
+      }
+    }
+  }
 };
 </script>
 
