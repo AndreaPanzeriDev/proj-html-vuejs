@@ -31,7 +31,7 @@ img {
 
 
 .height{
-  height: 400px;
+  height: 450px;
   position: relative;
 }
 

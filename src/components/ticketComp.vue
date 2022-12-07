@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 #ticket {
-  height: 500px;
+  height: 550px;
   background-image: url(../assets/img/ticket-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
