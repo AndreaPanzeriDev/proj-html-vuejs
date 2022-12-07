@@ -26,21 +26,26 @@ export default {};
 </script>
 
 <style scoped>
-#maps{
+#maps {
   margin-top: 50px;
+}
+
+iframe {
+  width: 100vw;
+  height: 100%;
 }
 
 .mapouter {
   position: relative;
   text-align: right;
   height: 500px;
-  width: 1080px;
+  width: 100vw;
 }
 
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
   height: 500px;
-  width: 1080px;
+  width: 100vw;
 }
 </style>
