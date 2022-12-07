@@ -10,16 +10,28 @@
       </div>
       <div class="d-flex space-around mt-50">
         <div v-for="(el, index) in 4" :key="index">
-          <img
-            :src="
-              require(`../../assets/img/${
-                arraySpeakers[position + index].person
-              }`)
-            "
-            alt="profile picture"
-          />
-          <h3 class="text-center">{{arraySpeakers[position + index].name}}</h3>
-          <div class="text-center dustyGray italic">{{arraySpeakers[position + index].job}}</div>
+          <div class="container2">
+            <img
+              :src="
+                require(`../../assets/img/${
+                  arraySpeakers[position + index].person
+                }`)
+              "
+              alt="profile picture"
+            />
+            <div class="img_overlay">
+              <i class="fa-brands fa-twitter fs-1 ms-5"></i>
+              <i class="fa-brands fa-square-facebook fs-1 ms-5"></i>
+              <i class="fa-brands fa-linkedin-in fs-1 ms-5"></i>
+            </div>
+          </div>
+
+          <h3 class="text-center">
+            {{ arraySpeakers[position + index].name }}
+          </h3>
+          <div class="text-center dustyGray italic">
+            {{ arraySpeakers[position + index].job }}
+          </div>
         </div>
       </div>
     </div>
@@ -37,25 +49,25 @@ export default {
       position: 0,
     };
   },
-  methods:{
-    goOn(){
-      console.log(this.position)
-      if(this.position == 4){
+  methods: {
+    goOn() {
+      console.log(this.position);
+      if (this.position == 4) {
         this.position = 0;
-      }else{
+      } else {
         this.position++;
       }
     },
 
-    goBack(){
-      console.log(this.position)
-      if(this.position == 0){
+    goBack() {
+      console.log(this.position);
+      if (this.position == 0) {
         this.position = 4;
-      }else{
+      } else {
         this.position--;
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -74,13 +86,30 @@ export default {
   font-size: 30px;
 }
 
-img{
+img {
   width: 222px;
   border-radius: 20px;
+}
+.container2:hover{
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-
-
-
+.img_overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin-right: -50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7260c;
+  opacity: 0.6;
+  border-radius: 20px;
+}
 </style>
